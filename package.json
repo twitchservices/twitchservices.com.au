@@ -1,0 +1,10 @@
+{
+  "name": "twitchservices.com.au",
+  "version": "1.0.0",
+  "description": "the twitch services website",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.0.1",
+    "jade": "^1.11.0"
+  }
+}
