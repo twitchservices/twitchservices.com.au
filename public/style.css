@@ -1,0 +1,53 @@
+#header {
+  margin-top: 50px;
+}
+
+#header .columns,
+#header .column {
+  height: 70px;
+}
+
+#services .container {
+  max-width: 70%;
+}
+
+#services h5 {
+  margin: 0;
+  width: 33%;
+  display: inline-block;
+}
+
+#header .logo,
+#header .contact,
+.photo,
+.name {
+  text-align: center;
+}
+
+.photo > img {
+  max-height: 200px;
+}
+
+#team hr {
+  border: 0;
+}
+
+@media (min-width: 550px) {
+  #header .logo,
+  .photo,
+  .name {
+    text-align: initial;
+  }
+
+  #header .contact {
+    text-align: right;
+  }
+}
+
+.circular {
+  border-radius:50%;
+}
+
+.center {
+  text-align: center;
+}
