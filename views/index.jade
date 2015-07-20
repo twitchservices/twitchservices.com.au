@@ -11,22 +11,26 @@ html
     section#header
       .container
         .row
-          .six(class='columns logo')
-            img(class='u-max-full-width', src='public/images/twitch.png')
-          .six(class='columns contact')
-            div
-              strong Warrick:&nbsp;#[a(href='tel:0419 192 337') 0419&nbsp;192&nbsp;337]
-            div 
-              strong Tim:&nbsp;#[a(href='tel:0428 315 278') 0428&nbsp;315&nbsp;278]
-            a(href='https://www.facebook.com/twitchservices')
-              img(src='public/images/FB-f-Logo__blue_29.png', height="20px", width="20px")
+          .twelve(class='columns logo')
+            h1
+              img(class='u-max-full-width', src='public/images/twitch.png')
+      .container(class='seventy')
+        .row
+          .six(class='columns phone')
+            h3(class='retroshadow') #[a(href='tel:0419192337') #[strong 0419&nbsp;192&nbsp;337]]
+          .six(class='columns phone')
+            h3 #[a(href='tel:0428315278') #[strong 0428&nbsp;315&nbsp;278]]
+      .container
         hr  
     section#services
-      .container
+      .container(class='seventy')
         .row(class='center')
-            h5 Refrigeration
-            h5 Electrical
-            h5 Air&nbsp;Conditioning
+            .four(class='columns')
+              h5 Refrigeration
+            .four(class='columns')
+              h5 Electrical
+            .four(class='columns')
+              h5 Air&nbsp;Conditioning
     .container
       hr
     section
@@ -41,6 +45,16 @@ html
           |decide if they're going to make more shows. Some pilots get picked and become television programs. 
           |Some don't, become nothing. She starred in one of the ones that became nothing.
         hr
+    //- section
+    //-   .container
+    //-     h4 Contact Us
+    //-     .row
+    //-       .six(class='columns contact')
+    //-         div Warrick:&nbsp;#[a(href='tel:0419 192 337') 0419&nbsp;192&nbsp;337]
+    //-         div Tim:&nbsp;#[a(href='tel:0428 315 278') 0428&nbsp;315&nbsp;278]
+    //-         a(href='https://www.facebook.com/twitchservices')
+    //-           img(src='public/images/FB-f-Logo__blue_29.png', height="20px", width="20px")
+    //-     hr
     section#team
       .container
         .row

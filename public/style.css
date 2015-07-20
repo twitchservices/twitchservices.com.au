@@ -2,25 +2,28 @@
   margin-top: 50px;
 }
 
-#header .columns,
-#header .column {
-  height: 70px;
+#header a {
+  color: #222;
+  text-decoration: none;
 }
 
-#services .container {
-  max-width: 70%;
+#header a:hover {
+  color: #c1282d;
 }
 
 #services h5 {
   margin: 0;
-  width: 33%;
-  display: inline-block;
 }
 
-#header .logo,
-#header .contact,
+.phone > * {
+  margin: 0;
+}
+
+.logo,
+.contact,
 .photo,
-.name {
+.name,
+.phone {
   text-align: center;
 }
 
@@ -33,7 +36,6 @@
 }
 
 @media (min-width: 550px) {
-  #header .logo,
   .photo,
   .name {
     text-align: initial;
@@ -50,4 +52,8 @@
 
 .center {
   text-align: center;
+}
+
+.seventy {
+  max-width: 70%;
 }
