@@ -1,10 +1,45 @@
 {
-  "name": "twitchservices.com.au",
-  "version": "1.0.0",
-  "description": "the twitch services website",
+  "name": "vue-loader-example",
+  "version": "2.0.0",
+  "description": "Example using Webpack with vue-loader",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --host 192.168.1.11",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^1.0.0"
+  },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-jade": "^1.0.1",
-    "jade": "^1.11.0"
-  }
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-runtime": "^6.4.3",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-runtime": "^5.8.0",
+    "cross-env": "^1.0.7",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "jade": "^1.11.0",
+    "lorem-ipsum": "^1.0.3",
+    "lost": "^6.6.3",
+    "markdown-it": "^5.1.0",
+    "markdown-it-classy": "^0.2.0",
+    "markdown-it-loader": "^0.2.0",
+    "node-waves": "^0.7.4",
+    "normalize-styl": "^3.0.3",
+    "postcss-responsive-type": "^0.3.2",
+    "rupture": "^0.6.1",
+    "stylus-loader": "^1.4.3",
+    "template-html-loader": "0.0.3",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.2.2",
+    "vue-html-loader": "^1.1.0",
+    "vue-loader": "^8.0.2",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "author": "Evan You",
+  "license": "MIT"
 }

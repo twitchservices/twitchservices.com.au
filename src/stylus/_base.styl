@@ -1,0 +1,24 @@
+html
+  font-size responsive
+  min-font-size 13px
+  max-font-size 20px
+  lower-font-range 600px
+  upper-font-range 1000px
+
+h1, h2, h3, p, ul, ol, li, code, a, span
+  margin 0
+  padding 0
+
+body
+  font-family font-stack
+  color primary-color
+  background-color #fefefe
+
+.contained
+  lost-column 11/12
+  lost-offset -1/25
+  lost-flex-container row
+  +above(xl-snap)
+    lost-column 4/6
+    lost-offset -1/6
+    max-width 1200px
