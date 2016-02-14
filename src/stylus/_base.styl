@@ -1,18 +1,27 @@
+sm-init($init-font: false)
+
+h1, h2, h3, h4, h5, h6
+  font-weight: normal
+  line-height: 1.1
+
+  & a
+    font-weight: inherit
+
 html
   font-size responsive
   min-font-size 13px
   max-font-size 20px
   lower-font-range 600px
   upper-font-range 1000px
-
+        
 h1, h2, h3, p, ul, ol, li, code, a, span
-  margin 0
-  padding 0
+ margin 0
+ padding 0
 
 body
-  font-family font-stack
-  color primary-color
-  background-color #fefefe
+  font-family: 'Roboto', sans-serif
+  font-weight: normal
+  color: $primary-text-color
 
 .contained
   lost-column 11/12

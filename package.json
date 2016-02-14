@@ -31,6 +31,7 @@
     "postcss-responsive-type": "^0.3.2",
     "rupture": "^0.6.1",
     "stylus-loader": "^1.4.3",
+    "stylus-material": "^1.0.0",
     "template-html-loader": "0.0.3",
     "url-loader": "^0.5.7",
     "vue-hot-reload-api": "^1.2.2",
